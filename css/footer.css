@@ -1,3 +1,19 @@
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer .logo {
+    color: #f4f4fd;
+}
+
+.logo-footer
+{
+    display: block;
+    width: 264px;
+    padding: 100px 0;
+    margin-left: 141px;
+}
+
 .footer-text{
     display: flex;
     color: #f4f4fd;
@@ -7,11 +23,4 @@
     justify-content: space-between;
 }
 
-.footer {
-    background-color: #2e2f42;
-}
-
-.footer .logo {
-    color: #f4f4fd;
-}
 

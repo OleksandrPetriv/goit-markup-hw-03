@@ -1,42 +1,20 @@
 .header .container {
-  display: flex;
+   display: flex;
   }
 
 .container {
-  display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  align-items: center;
-  justify-content: space-between;
+   display: flex;
+   width: 1158px;
+   margin: 0 auto;
+   align-items: center;
+   justify-content: space-between;
 }
 
-.contacts-list {
-    display: flex;
-    font-style: normal;
-    list-style: none;
-    justify-content: space-around;
-    gap: 40px;
+.header a:focus,
+.header a:hover {
+    color: red;
 }
 
-.contacts-list a
-{
-    color: #2E2F42;
-    text-decoration: none;
-    font-style: normal;
-}
-
-.nav-list {
-    list-style: none;
-    display: flex;
-    justify-content: flex-start;
-    gap: 40px;
-    font-weight: bold;
-}
-
-.nav-list a {
-    color: #2E2F42;
-    text-decoration: none;
-}
 
 .logo {
     text-decoration: none;
@@ -54,16 +32,33 @@
     color: #4d5ae5;
 }
 
-a,
-a:hover,
-a:focus,
-a:active 
-{
-  text-decoration: none;
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    font-weight: bold;
 }
 
-.header a:focus,
-.header a:hover {
-    color: red;
+.nav-list a {
+    color: #2E2F42;
+    text-decoration: none;
 }
+
+
+.contacts-list {
+    display: flex;
+    font-style: normal;
+    list-style: none;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.contacts-list a
+{
+    color: #2E2F42;
+    text-decoration: none;
+    font-style: normal;
+}
+
 
