@@ -1,7 +1,6 @@
 .features-list {
     display: flex;
     gap: 24px;
-    padding: 120px 0;
     font-size: 20px;
     letter-spacing: 0.02em;
     color: #000080 hwb(240 0% 0%);
@@ -24,4 +23,8 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.features {
+    padding: 120px 0;
 }

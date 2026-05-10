@@ -10,7 +10,6 @@
 .hero-main-title {
     max-width: 496px;
     color: #fff;
-    margin: 0 auto 48px;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -28,6 +27,7 @@
     font-size: 16px;
     border: none;
     border-radius: 4px;
+    margin-top: 48px;
     margin: 0 auto;
     border-radius: 4px;
     padding: 16px 32px;
