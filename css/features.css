@@ -1,6 +1,5 @@
 .features-list {
     display: flex;
-    gap: 24px;
     font-size: 20px;
     letter-spacing: 0.02em;
     color: #000080 hwb(240 0% 0%);
@@ -9,6 +8,7 @@
 .features-text {
     color: #000080;
     font-size: 16px;
+     gap: 24px;
     letter-spacing: 0.02em;
 }
 
