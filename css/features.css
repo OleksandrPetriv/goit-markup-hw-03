@@ -1,27 +1,27 @@
 .features-list {
     display: flex;
     gap: 24px;
-    padding-top: 120px;
-    padding-bottom: 120px 0;
+    padding: 120px 0;
     font-size: 20px;
     letter-spacing: 0.02em;
     color: #000080 hwb(240 0% 0%);
 }
 
 .features-text {
-    color: NAVY BLUE;
+    color: #000080;
     font-size: 16px;
     letter-spacing: 0.02em;
 }
 
-.features-list {
-    display: flex;
-    gap: 24px;
-}
 .features-item {
     width: calc((100% - 72px) / 4);
 }
 
 .features-title {
     margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
