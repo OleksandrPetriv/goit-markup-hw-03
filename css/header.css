@@ -1,14 +1,9 @@
-.header .container {
+.header {
    display: flex;
+   border-bottom: 1px solid #e7e9fc;
+    padding-bottom: 24px;
+    padding-top: 24px;
   }
-
-.container {
-   display: flex;
-   width: 1158px;
-   margin: 0 auto;
-   align-items: center;
-   justify-content: space-between;
-}
 
 .header a:focus,
 .header a:hover {
@@ -33,31 +28,23 @@
 }
 
 .nav-list {
-    list-style: none;
     display: flex;
-    justify-content: flex-start;
-    gap: 40px;
     font-weight: bold;
 }
 
 .nav-list a {
     color: #2E2F42;
-    text-decoration: none;
 }
 
 
 .contacts-list {
     display: flex;
-    font-style: normal;
-    list-style: none;
-    justify-content: space-around;
     gap: 40px;
 }
 
 .contacts-list a
 {
     color: #2E2F42;
-    text-decoration: none;
     font-style: normal;
 }
 
