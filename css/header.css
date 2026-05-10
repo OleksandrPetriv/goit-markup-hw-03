@@ -1,15 +1,21 @@
 .header {
-   display: flex;
    border-bottom: 1px solid #e7e9fc;
-    padding-bottom: 24px;
-    padding-top: 24px;
   }
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
 
 .header a:focus,
 .header a:hover {
     color: red;
 }
 
+.header-nav {
+    display: flex;
+    align-items: center;
+}
 
 .logo {
     text-decoration: none;
@@ -21,6 +27,7 @@
     line-height: 1.33;
     letter-spacing: 0.03em;
     padding-left: 15px;
+    margin-right: 76px;
 }
 
 .logo span {
@@ -30,10 +37,17 @@
 .nav-list {
     display: flex;
     font-weight: bold;
+    gap: 40px;
 }
 
 .nav-list a {
     color: #2E2F42;
+}
+
+.nav-link,
+.contacts-link {
+    display: block;
+    padding: 24px 0;
 }
 
 
@@ -48,4 +62,7 @@
     font-style: normal;
 }
 
+.address {
+    margin-left: auto;
+}
 

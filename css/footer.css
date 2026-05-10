@@ -1,25 +1,19 @@
 .footer {
     background-color: #2e2f42;
-}
-
-.footer .logo {
-    color: #f4f4fd;
-}
-
-.logo-footer
-{
-    display: block;
     padding: 100px 0;
-    justify-content: space-between
+}
+
+.footer-logo {
+display: inline-block;
+margin-bottom: 16px;
 }
 
 .footer-text{
-    display: flex;
+    max-width: 264px;
     color: #f4f4fd;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    justify-content: space-between;
 }
 
 

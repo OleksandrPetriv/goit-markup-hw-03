@@ -1,9 +1,8 @@
 .features-list {
     display: flex;
     gap: 24px;
-    list-style: none;
     padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 120px 0;
     font-size: 20px;
     letter-spacing: 0.02em;
     color: #000080 hwb(240 0% 0%);
@@ -13,4 +12,16 @@
     color: NAVY BLUE;
     font-size: 16px;
     letter-spacing: 0.02em;
+}
+
+.features-list {
+    display: flex;
+    gap: 24px;
+}
+.features-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.features-title {
+    margin-bottom: 8px;
 }
